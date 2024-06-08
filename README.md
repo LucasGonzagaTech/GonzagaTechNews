@@ -19,7 +19,7 @@ Este é um projeto de site de notícias improvisado desenvolvido com Next.js. El
 
 1. Clone este repositório para o seu ambiente de desenvolvimento:
 
-git clone https://github.com/seu-usuario/noticias-express.git
+git clone https://github.com/LucasGonzagaTech/Improvisado_News.git
 
 
 2. Navegue até o diretório do projeto:
