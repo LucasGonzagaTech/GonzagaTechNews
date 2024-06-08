@@ -1,0 +1,150 @@
+.news-card {
+    background-color: #161616;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .author {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .news-card {
+      flex-direction: column;
+    }
+  
+    .author {
+      flex: 1;
+      margin-right: 20px;
+    }
+  
+    .news-image {
+      max-width: 200px;
+      flex: 1;
+    }
+  }
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #25008b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1{
+    color: #000000;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  
+  .search input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    color: #000000;
+  }
+  
+  .search button {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .nav {
+      margin-top: 20px;
+    }
+    
+    .search {
+      margin-top: 20px;
+    }
+  }
+  
+
+  .news-details {
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .news-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .news-details h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .news-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .news-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .news-details {
+      padding: 10px;
+      margin: 10px auto;
+    }
+  
+    .news-details h2 {
+      font-size: 20px;
+    }
+  
+    .news-details p {
+      font-size: 14px;
+    }
+  }
+  
